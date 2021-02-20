@@ -1,0 +1,14 @@
+digraph {
+	graph [fontname=Arial, nodesep=0.125, ranksep=0.25];
+	node [fontcolor=white, fontname=Arial, height=0, shape=box, style=filled, width=0];
+	edge [fontname=Arial];
+	1 [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="<ipython-input-2-d8c316bc8b79>:26:bulk_peakDetect\n100.00%\n(0.17%)\n1×", tooltip="<ipython-input-2-d8c316bc8b79>"];
+	1 -> 4 [arrowsize="1.00", color="#fe0400", fontcolor="#fe0400", fontsize="10.00", label="99.64%\n1530×", labeldistance="3.99", penwidth="3.99"];
+	2 [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="~:0:<built-in method builtins.exec>\n100.00%\n(0.00%)\n1×", tooltip="~"];
+	2 -> 6 [arrowsize="1.00", color="#ff0000", fontcolor="#ff0000", fontsize="10.00", label="100.00%\n1×", labeldistance="4.00", penwidth="4.00"];
+	3 [color="#0d2e7c", fontcolor="#ffffff", fontsize="10.00", label="~:0:<built-in method builtins.len>\n7.52%\n(7.52%)\n19199970×", tooltip="~"];
+	4 [color="#fe0400", fontcolor="#ffffff", fontsize="10.00", label="<ipython-input-2-d8c316bc8b79>:8:myCorrelate\n99.64%\n(92.12%)\n1530×", tooltip="<ipython-input-2-d8c316bc8b79>"];
+	4 -> 3 [arrowsize="0.35", color="#0d2e7c", fontcolor="#0d2e7c", fontsize="10.00", label="7.52%\n19199970×", labeldistance="0.50", penwidth="0.50"];
+	6 [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="<string>:1:<module>\n100.00%\n(0.00%)\n1×", tooltip="<string>"];
+	6 -> 1 [arrowsize="1.00", color="#ff0000", fontcolor="#ff0000", fontsize="10.00", label="100.00%\n1×", labeldistance="4.00", penwidth="4.00"];
+}
